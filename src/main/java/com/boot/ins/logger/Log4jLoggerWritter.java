@@ -24,6 +24,8 @@ public class Log4jLoggerWritter implements LoggerWritter {
     private static final Logger logger = LogManager.getLogger(TestController.class);
 
 
+
+
     @Override
     public void addMetric(String key, String value) {
         matrixBiLog.addToContex(key, value);
